@@ -1,22 +1,14 @@
-# READMEGenerator
-## Your Task
+# Project Title
 
-what the app is for, 
-technologies used,
-how to use the app, 
-how to install it, 
-how to report issues, 
-and how to make contributions;
-challenges of development
-future features to implement
-
-## User Story
+## Description
 
 ```md
 AS A developer
 I WANT a README generator
 SO THAT I can quickly create a professional README for a new project
 ```
+
+## Table of Contents
 
 ```md
 GIVEN a command-line application that accepts user input
@@ -36,18 +28,29 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
 
+## Installation
+
+Here are some guidelines to help you get started:
+
+* Create a `.gitignore` file and include `node_modules/` and `.DS_Store/` so that your `node_modules` directory isn't tracked or uploaded to GitHub. Be sure to create your `.gitignore` file before installing any npm dependencies.
+
+* Make sure that your repo includes a `package.json` with the required dependencies. You can create one by running `npm init` when you first set up the project, before installing any dependencies.
 
 * Include a video of the typical user flow through your application. This includes views of the prompts and the responses after their selection.
 
 * Include any other screenshots you deem necessary to help someone who has never been introduced to your application understand the purpose and function of it. This is how you will communicate to potential employers or other developers in the future what you built and why, and to show how it works.
 
-### Deliverables: 20%
+## Usage
+
+This homework is graded based on the following criteria: 
+
+### License
 
 * A sample README generated using the application must be submitted.
 
 * Your GitHub repository containing your application code.
 
-### Walkthrough Video: 27%
+### Contributing
 
 * A walkthrough video that demonstrates the functionality of the README generator must be submitted, and a link to the video should be included in your README file.
 
@@ -57,9 +60,13 @@ THEN I am taken to the corresponding section of the README
 
 * The walkthrough video must demonstrate a generated README that matches the user input and has a functioning table of contents.
 
-### Technical Acceptance Criteria: 40%
+### Tests 
 
-### Repository Quality: 13%
+* Satisfies all of the above acceptance criteria plus the following:
+
+	* Uses the [Inquirer package](https://www.npmjs.com/package/inquirer).
+
+### Questions
 
 * Repository has a unique name.
 
@@ -71,17 +78,3 @@ THEN I am taken to the corresponding section of the README
 
 * Repository contains a high-quality README with description and a link to walkthrough video.
 
-
-## Review
-
-You are required to submit the following for review:
-
-* A walkthrough video demonstrating the functionality of the application.
-
-* A sample README.md file for a project repository generated using your application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
----
-
-© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
