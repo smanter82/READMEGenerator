@@ -10,12 +10,12 @@ This app is a Readme generator. It is used for quickly creating professional Rea
 
 ## Table of Contents
 
-[Technologies](#technologies)
-[Usage](#usage)
-[Installation](#installation)
-[Feedback](#feedback)
-[Challenges](#challenges)
-[Walkthrough](#walkthrough)
+- [Technologies](#Technologies)
+- [Usage](#Usage)
+- [Installation](#Installation)
+- [Feedback](#Feedback)
+- [Challenges](#Challenges)
+- [Walkthrough](#Walkthrough)
 
 ## Technologies
 
@@ -50,3 +50,5 @@ Contact me with any feedback or questions through GitHub or by email.
 ## Walkthrough
 
 [Walkthrough_Video]()
+
+Some code on this application may have been done in collaboration with my Bootcamp study group classmates: https://github.com/arensalmela, https://github.com/dmaysteinman, https://github.com/EddiePhi, https://github.com/ReindeerCode, https://github.com/DustinErwin, https://github.com/Ewager1, https://github.com/mdjonestwo, https://github.com/shannonquinn91/Note-Taker, https://github.com/JesalDM

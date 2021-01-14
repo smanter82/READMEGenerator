@@ -23,7 +23,7 @@ const questions = [
   },
   {
     type: "input",
-    message: "Please enter project instructions.",
+    message: "Please enter project installation instructions.",
     name: "projectInstructions",
   },
   {
@@ -45,7 +45,7 @@ const questions = [
     type: "list",
     message: "Choose a license for your project.",
     name: "projectLicense",
-    choices: ["MIT License", "GNU GPLv3 License", "Apache License"],
+    choices: ["MIT", "GPL", "Apache"],
   },
   {
     type: "input",

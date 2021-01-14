@@ -4,40 +4,42 @@
 function generateMarkdown(data) {
   return `# ${data.projectTitle}
 
+![License: ${data.license}]https://img.shields.io/badge/License-${data.projectLicense}-blue.svg)
+
 ## Description:
 
-${data.projectDescription}
+_${data.projectDescription}_
 
 ## Table of Contents:
 
-* [Installation](#installation)
-* [Usage](#usage)
-* [Contributing](#contributing)
-* [Tests](#tests)
-* [License](#license)
-* [Questions](#questions)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Contributing](#Contributing)
+* [Tests](#Tests)
+* [License](#License)
+* [Questions](#Questions)
 
 ## Installation:
 
-* ${data.projectInstructions}
+${data.projectInstructions}
 
 ## Usage:
 
-* ${data.projectUsageInfo}
+${data.projectUsageInfo}
 
 ## Contributing:
 
 Here are the ways in which you can contribute to this project:
 
-* ${data.projectContribution}
+${data.projectContribution}
 
 ## Tests:
 
-* ${data.projectTestInstruct}
+${data.projectTestInstruct}
 
 ## License:
 
-Licensed under the [${data.projectLicense}](LICENSE.txt) license.
+Licensed under the ${data.projectLicense} license.
 
 ## Questions:
 
@@ -52,12 +54,6 @@ Contact me through GitHub or by email with any questions.
 }
 
 module.exports = generateMarkdown;
-
-//WHEN I am prompted for information about my application repository
-// THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-
-// WHEN I choose a license for my application from a list of options
-// THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
 
 // ```
 
