@@ -51,7 +51,11 @@ Contact me with any feedback or questions through GitHub or by email.
 
 ## Walkthrough
 
+Video File:
 [Walkthrough_Video](./Assets/ReadmeApp_Walkthrough.mp4)
+
+Video Link:
+[Walkthrough_Video](https://drive.google.com/file/d/1hxkMyWpGGTQQHizG-TaaJdBEPdOrxu4a/view)
 
 ## Sample file
 
