@@ -6,7 +6,9 @@ This app is a Readme generator. It is used for quickly creating professional Rea
 
 ## Screenshots
 
-[Screenshot]()
+![Sample Readme](./Assets/sample_readme.png)
+
+![node.js](./Assets/inquirer.png)
 
 ## Table of Contents
 
@@ -39,7 +41,7 @@ Upon completion of the inquirer prompts, a .md file will be created with the tit
 Contact me with any feedback or questions through GitHub or by email.
 
 - [GitHub](https://github.com/smanter82)
-- [Email](sarahmanter@gmail.com)
+- Email: sarahmanter@gmail.com
 
 ## Challenges
 
@@ -49,6 +51,10 @@ Contact me with any feedback or questions through GitHub or by email.
 
 ## Walkthrough
 
-[Walkthrough_Video]()
+[Walkthrough_Video](./Assets/ReadmeApp_Walkthrough.webm)
+
+## Sample file
+
+[Sample_Readme](./Assets/Sample.md)
 
 Some code on this application may have been done in collaboration with my Bootcamp study group classmates: https://github.com/arensalmela, https://github.com/dmaysteinman, https://github.com/EddiePhi, https://github.com/ReindeerCode, https://github.com/DustinErwin, https://github.com/Ewager1, https://github.com/mdjonestwo, https://github.com/shannonquinn91/Note-Taker, https://github.com/JesalDM

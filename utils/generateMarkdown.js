@@ -1,10 +1,8 @@
 // function to generate markdown for README
-// Do I need to export this?
-
 function generateMarkdown(data) {
   return `# ${data.projectTitle}
 
-![License: ${data.license}]https://img.shields.io/badge/License-${data.projectLicense}-blue.svg)
+[![License: ${data.projectLicense}](https://img.shields.io/badge/License-${data.projectLicense}-yellow.svg)](https://opensource.org/licenses/${data.projectLicense})
 
 ## Description:
 
@@ -46,24 +44,8 @@ Licensed under the ${data.projectLicense} license.
 Contact me through GitHub or by email with any questions.
 
 * [GitHub Profile: ](https://github.com/${data.gitHubName}/)
-* [Email Address: ](${data.emailAddress})
-
-  
-
+* Email: ${data.emailAddress}
 `;
 }
 
 module.exports = generateMarkdown;
-
-// ```
-
-// ### Deliverables: 20%
-
-// * A sample README generated using the application must be submitted.
-
-// * Your GitHub repository containing your application code.
-
-// * A walkthrough video that demonstrates the functionality of the README generator must be submitted.
-
-// * The walkthrough video must demonstrate a generated README that matches the user input and has a functioning table of contents.
-// ```
