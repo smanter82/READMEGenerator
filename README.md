@@ -51,7 +51,7 @@ Contact me with any feedback or questions through GitHub or by email.
 
 ## Walkthrough
 
-[Walkthrough_Video](./Assets/ReadmeApp_Walkthrough.webm)
+[Walkthrough_Video](./Assets/ReadmeApp_Walkthrough.mp4)
 
 ## Sample file
 
